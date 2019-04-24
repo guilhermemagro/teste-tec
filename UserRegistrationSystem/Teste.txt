@@ -1,0 +1,54 @@
+Bom dia,
+Segue abaixo o teste técnico da Tecprime, gentileza nos informar assim
+que avaliá-lo, o prazo de entrega:
+
+DESAFIO
+O objetivo é criar uma aplicação web ou aplicativo móvel que
+permita gerenciar um cadastro de usuários.
+
+PRÉ-REQUISITOS:
+•	Ao entrar deve ser possível visualizar a lista de usuários;
+•	Deve ser possível cadastrar novos usuários (veja observação ao final);
+•	Deve ser possível excluir usuários da lista (veja observação ao final).
+
+Para carregar a lista paginada de usuários, utilize o serviço abaixo:
+
+MÉTODO:
+  GET
+
+URL:
+  https://reqres.in/api/users?page=1&per_page=2
+
+RESPONSE:
+{  "page":1,
+   "per_page":2,
+   "total":12,
+   "total_pages":6,
+   "data":
+      [{"id":1,
+      	"firstName":"George",
+      	"lastName":"Bluth",
+      	"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"},
+       {"id":2,
+      	"firstName":"Janet",
+      	"lastName":"Weaver",
+      	"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"}]}
+
+Obs.:
+ Para cadastrar e excluir usuários não é necessária integração, os dados podem ser persistidos
+ em localStorage ou serem utilizados apenas durante a execução da aplicação.
+
+DIFERENCIAIS:
+•	Responsividade;
+•	Paginar os registros;
+•	Permitir editar um registro;
+•	Disponibilizar a solução na nuvem;
+•	Listar e cadastrar a foto dos usuários.
+
+A ENTREGA:
+•	Crie um passo-a-passo de como executar a sua solução;
+•	Faça uma breve descrição da solução utilizada;
+•	Envie tudo, juntamente com os fontes, para o email: tecprime@tecprime.com.br
+
+Este exercício representa o nosso dia-a-dia na Tecprime, sendo assim, conseguindo executá-lo
+conseguiremos com seu apoio formar uma forte equipe!
