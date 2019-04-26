@@ -1,4 +1,4 @@
-package com.apress.ravi.UserRegistrationSystem;
+package com.tecprime.guilherme.UserRegistrationSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.apress.ravi.UserRegistrationSystem;
+package com.tecprime.guilherme.UserRegistrationSystem;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

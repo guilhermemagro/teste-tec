@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="alert alert-danger" role="alert" ng-if="errorMessage">
+    {{errorMessage}}
+  </div>
+  <div class="panel panel-default ">
+    <div class="alert alert-success">
+      <span class="lead">Cadastrar Novo Usuário</span>
+    </div>
+    <div class="panel-body ">
+      <div class="container">
+        <form ng-submit="submitUserForm()" name="myForm" class="form-horizontal">
+          <div class="row">
+            <div class="form-group col-lg-10 col-xs-10">
+              <label class="col-lg-2 col-xs-4 control-lable" for="avatar">
+                Avatar
+              </label>
+              <div class="col-lg-8 col-xs-8">
+                <input type="text" ng-model="user.avatar" id="avatar" class="form-control input-sm"
+                  placeholder="Digite o link do avatar do usuário" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-10 col-xs-10">
+              <label class="col-lg-2 col-xs-4 control-lable" for="firstName">
+                Nome
+              </label>
+              <div class="col-lg-8 col-xs-8">
+                <input type="text" ng-model="user.firstName" id="firstName" class="form-control input-sm"
+                  placeholder="Digite o nome do usuário" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-10 col-xs-10">
+              <label class="col-lg-2 col-xs-4 control-lable" for="lastName">
+                Sobrenome
+              </label>
+              <div class="col-lg-8 col-xs-8">
+                <input type="text" ng-model="user.lastName" id="lastName" class="form-control input-sm"
+                  placeholder="Digite o sobrenome do usuário" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-actions floatRight">
+              <input type="submit" value="Registrar Usuário" class="btn btn-primary btn-sm">
+              <button type="button" ng-click="resetForm()" class="btn btn-warning btn-sm">Limpar Campos</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
